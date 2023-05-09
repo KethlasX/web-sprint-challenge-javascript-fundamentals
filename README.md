@@ -25,15 +25,18 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
-
+  Map is used for making a new array from a given array but cannot alter the original array. Example usage would be for when you want to take an array of say baseball players and produce a new array that includes only data regarding number of homeruns. Reduce is generally used for mathematical purposes and produces only one value, not an array. Example would be for adding number of items sold in a business day. Filter is used for making an array that includes only items that meet a true/false. Example usage would be if you have an array of competition teams and their winnings you could use .filter to create a new array that shows only teams that remain in the competition meeting a true/false.
 2. Explain the difference between a callback and a higher order function.
-
+  A higher order funciton is one that receives other functions whereas a callback function is one that is passed as an argument to another function.
 3. Explain what a closure is.
-
+  When an inner function reaches out of its scope to grab a variable defined in an outer function.
 4. Describe the four principles of the 'this' keyword.
-
+  Window binding: without context it will return the window, the global object, or undefined.
+  Implicit binding: when invokign a fucntion inside of an object using .this where left of the dot is the object.
+  Explicit binding: basically a reach around for declaring arguments
+  New binding: when creating a new object using function constructor
 5. Why do we need super() in an extended class?
-
+  We need super to bring values into the function from whatever parent the new function is extending.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
